@@ -1,0 +1,9 @@
+image:
+  repository: ubuntu
+  tag: 22.04
+  pullPolicy: allways
+
+service:
+  internalPort: 80
+  name: p80
+  externalPort: 80
